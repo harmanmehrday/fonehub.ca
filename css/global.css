@@ -1,0 +1,132 @@
+/*////////////////////////////////// header navbar and footer ////////////////////////////////////////*/
+
+/* header styling */
+.nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    height: 47px;
+    margin-left: 800px;
+  }
+  
+  /*navbar styling*/
+  .wrap,.nav,.name.logo{
+    position: fixed;
+  }
+  
+  /*navbar styling*/
+  .space{
+    height: 67px;
+  }
+  
+  /*wrapper styling*/
+  .wrap{
+      background-color: white;
+      width: 100%;
+      height: 67px;
+      box-shadow: 0 2px 4px grey;
+  }
+  
+  /*navbar styling*/
+  .nav>ul>li {
+    float: right;
+  }
+  
+  /*navbar styling*/
+  .nav>ul>li>a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: grey;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  /*navbar styling*/
+  .nav>ul>li>a:hover {
+    background-color: rgba(157, 42, 244, 0.8);
+    color: white;
+    transition-duration: .6s;
+  }
+  
+  /*company name and logo styling*/
+  .logo,.name{
+    margin-top: 5px;
+    float: left;
+  }
+  
+  /*company name styling*/    
+  .logo>img{
+    margin-left: 20px;
+  }
+  
+  /*company name styling*/
+  .name>p{
+      margin: 0;
+      padding: 0;
+      font-size: 50px;
+      margin-left: 10px;
+      font-family: 'Ubuntu', sans-serif;
+      color: grey;
+  }
+  
+  /*active tab*/      
+  .active{
+      background-color: #9d2af4;
+      color: white!important;   
+  }
+      
+  /*footer styling*/
+  
+  /*go up arrow*/ 
+  .goup>img{
+      margin-left: 627px;
+  }
+  
+  /*footer styling*/
+  #footer{
+    width: 100%;
+    background-color: #333333;
+    height: 240px;
+  }
+  
+  /*social media links styling*/
+  #site-footer>ul{
+    list-style-type: none;
+    margin-left: 525px;
+  }
+  
+  /*social media links styling*/
+  #site-footer>ul>li{
+    display: inline;
+  }
+  
+  /*call and mail styling*/
+  #site-footer2>ul{
+    list-style-type: none;
+    margin-left: 583px;
+  }
+  
+  /*call and mail styling*/
+  #site-footer2>ul>li{
+    display: inline;
+  }
+  
+  /* policy text*/
+  #pri-pol>p,#pri-pol>p>a{
+    margin-left: 250px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: white; 
+  }
+  
+  /* copyright text*/
+  #copy>p{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: justify;
+    color: white; 
+    margin-left: 450px;
+  }
+  
